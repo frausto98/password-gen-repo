@@ -51,11 +51,11 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  // var password = 
+  //var password = 
   generatePassword();
-  // var passwordText = document.querySelector("#password");
+  //var passwordText = document.querySelector("#password");
 
-  // passwordText.value = password;
+  //passwordText.value = password;
 
 }
 
@@ -72,5 +72,6 @@ function generatePassword() {
   prompt("Would you like upper case characters?");
 
     console.log(upperChars.sort(function() { return 0.5 - Math.floor(Math.random())}));
+    return;
 }
 
